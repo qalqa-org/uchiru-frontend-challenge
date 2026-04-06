@@ -1,5 +1,9 @@
 import { CatsPage } from '@/views';
 
 export default async function Home() {
-  return <CatsPage />;
+  return (
+    <main>
+      <CatsPage />
+    </main>
+  );
 }
