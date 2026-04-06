@@ -1,4 +1,4 @@
-import '@/shared/styles/main.scss';
+import '@/shared/assets/styles/main.scss';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
