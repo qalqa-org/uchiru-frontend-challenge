@@ -10,19 +10,16 @@ interface CatCardProps {
 }
 
 export function CatCard({ cat, likeSlot, priority }: CatCardProps) {
-  const isGif = cat.url.endsWith('.gif');
-
   return (
     <article className={styles.card}>
       <Image
         src={cat.url}
         alt='Cat'
-        // sizes='224px'
         width={224}
         height={224}
         className={styles.image}
         priority={priority}
-        unoptimized={isGif}
+        loading='eager'
       />
       {likeSlot && <div className={styles.likeSlot}>{likeSlot}</div>}
     </article>
