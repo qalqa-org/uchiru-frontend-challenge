@@ -1,4 +1,4 @@
-:HL["/uchiru-frontend-challenge/_next/static/chunks/0ebk7.pyvu0dc.css","style"]
-:HL["/uchiru-frontend-challenge/_next/static/chunks/0odwdrl00.wok.css","style"]
+:HL["/uchiru-frontend-challenge/_next/static/chunks/0o8hia6~8efx7.css","style"]
+:HL["/uchiru-frontend-challenge/_next/static/chunks/0tlvx9hsvy9z-.css","style"]
 :HC["/",""]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"uAZ8eE6rYI871s12vPr00"}
+0:{"tree":{"name":"","param":null,"prefetchHints":20,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"ZtLCFU6U6sU_Ux0rCZu2e"}
