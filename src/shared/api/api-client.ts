@@ -8,7 +8,7 @@ class ApiClient {
 
   static getInstance(): ApiClient {
     if (!ApiClient.instance) {
-      ApiClient.instance = new ApiClient(process.env.CAT_API_URL ?? '');
+      ApiClient.instance = new ApiClient(process.env.NEXT_PUBLIC_CAT_API_URL ?? '');
     }
 
     return ApiClient.instance;
