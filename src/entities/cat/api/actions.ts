@@ -1,5 +1,3 @@
-'use server';
-
 import { catApi } from './cat-api';
 
 export async function loadMoreCatsAction(page: number) {
