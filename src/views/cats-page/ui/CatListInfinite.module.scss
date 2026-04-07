@@ -1,0 +1,16 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px;
+  list-style: none;
+  padding: 48px 0;
+}
+
+.sentinel {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  min-height: 1px;
+  color: var(--accent-color);
+}
