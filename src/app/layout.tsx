@@ -1,4 +1,5 @@
 import '@/shared/assets/styles/main.scss';
+import { CatListProvider, FavoritesProvider } from '@/features';
 import { Header } from '@/widgets';
 import type { Metadata } from 'next';
 
@@ -15,8 +16,12 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
-        <Header />
-        <main>{children}</main>
+        <FavoritesProvider>
+          <CatListProvider>
+            <Header />
+            <main>{children}</main>
+          </CatListProvider>
+        </FavoritesProvider>
       </body>
     </html>
   );
