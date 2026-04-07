@@ -2,5 +2,5 @@
 2:I[1017,["/uchiru-frontend-challenge/_next/static/chunks/0l7vgz44605ri.js","/uchiru-frontend-challenge/_next/static/chunks/0lnxwq80jwbbg.js","/uchiru-frontend-challenge/_next/static/chunks/0ttuh5kic5b4w.js"],"FavoritesPage"]
 3:I[96186,["/uchiru-frontend-challenge/_next/static/chunks/0l7vgz44605ri.js","/uchiru-frontend-challenge/_next/static/chunks/0lnxwq80jwbbg.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/uchiru-frontend-challenge/_next/static/chunks/0ttuh5kic5b4w.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7MXEZ9HZTkykq0B_r0OtG"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/uchiru-frontend-challenge/_next/static/chunks/0ttuh5kic5b4w.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"XlgHjK8CKLmyqI34FU29h"}
 5:null
