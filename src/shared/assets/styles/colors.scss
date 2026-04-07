@@ -16,9 +16,13 @@ $css-theme-vars: (
   accent-color-secondary: $red-500,
   text-secondary: $black,
   text-primary: $white,
+  skeleton-base: #e0e0e0,
+  skeleton-shine: #f5f5f5,
 );
 
 $css-theme-vars-dark: (
   background: #0a0a0a,
   foreground: #ededed,
+  skeleton-base: #1f1f1f,
+  skeleton-shine: #2a2a2a,
 );
