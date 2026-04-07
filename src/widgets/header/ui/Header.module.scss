@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  background-color: var(--accent-color);
+  z-index: 100;
+}
+
+.inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  height: 64px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 100%;
+}
+
+.navLink {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  color: var(--text-primary);
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.navLinkActive {
+  background-color: var(--accent-color-hover);
+}
