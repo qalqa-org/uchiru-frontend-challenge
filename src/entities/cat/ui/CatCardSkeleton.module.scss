@@ -1,24 +1,6 @@
-.card {
-  position: relative;
-  aspect-ratio: 1 / 1;
-  transition: 0.3s ease;
+.skeleton {
   width: 224px;
   height: 224px;
-
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  }
-}
-
-.image {
-  object-fit: cover;
-  display: block;
-}
-
-.skeletonOverlay {
-  position: absolute;
-  inset: 0;
   background: linear-gradient(
     90deg,
     var(--skeleton-base) 25%,
@@ -36,10 +18,4 @@
   100% {
     background-position: -200% 0;
   }
-}
-
-.likeSlot {
-  position: absolute;
-  bottom: 8px;
-  right: 8px;
 }

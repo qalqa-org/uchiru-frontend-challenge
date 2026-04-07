@@ -1,6 +1,6 @@
-import Image from 'next/image';
 import type { ReactNode } from 'react';
 import type { Cat } from '../model/types';
+import { CatCardImage } from './CatCardImage';
 import styles from './CatCard.module.scss';
 
 interface CatCardProps {
@@ -12,15 +12,7 @@ interface CatCardProps {
 export function CatCard({ cat, likeSlot, priority }: CatCardProps) {
   return (
     <article className={styles.card}>
-      <Image
-        src={cat.url}
-        alt='Cat'
-        width={224}
-        height={224}
-        className={styles.image}
-        priority={priority}
-        loading='eager'
-      />
+      <CatCardImage src={cat.url} priority={priority} />
       {likeSlot && <div className={styles.likeSlot}>{likeSlot}</div>}
     </article>
   );
